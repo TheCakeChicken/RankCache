@@ -45,3 +45,11 @@ local player2Role = rankCache:GetPlayerRole(game.Players.Player2)
 ```
 
 More examples are available in the [examples](https://github.com/WhitehillGroup/RankCache/tree/main/examples) folder.
+
+If you haven't added the group id, you can modify Line 42
+```lua
+local config = {
+	--// Specifies the group ID to use when no groupId is provided
+	DefaultGroupID = 0;
+}
+```
